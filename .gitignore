@@ -1,0 +1,17 @@
+
+# agent-rules (local only)
+/AGENTS.md
+/.agent-rules/bases/AGENTS.md
+/CLAUDE.md
+/.agent-rules/bases/CLAUDE.md
+/GEMINI.md
+/.agent-rules/bases/GEMINI.md
+
+# Jekyll
+/_site/
+/.jekyll-cache/
+/.jekyll-metadata
+/.sass-cache/
+/.bundle/
+/vendor/
+Gemfile.lock
