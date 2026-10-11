@@ -2,6 +2,9 @@ title: Wirestead
 description: >-
   Robust, simple async communication for modern C++20 — Serial, TCP, UDP, UDS.
 url: "https://wirestead.github.io"
+baseurl: ""
+
+logo: /assets/wirestead-logo-square-1024.png
 
 theme: minima
 minima:
