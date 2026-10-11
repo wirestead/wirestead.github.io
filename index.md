@@ -3,6 +3,17 @@ layout: home
 title: Wirestead
 ---
 
+<style>
+  .wirestead-logo { display: block; background: #fff; }
+  @media (prefers-color-scheme: dark) {
+    .wirestead-logo { background: #0f172a; }
+  }
+</style>
+<picture class="wirestead-logo">
+  <source srcset="{{ '/assets/wirestead-logo-dark.svg' | relative_url }}" media="(prefers-color-scheme: dark)">
+  <img src="{{ '/assets/wirestead-logo-horizontal.svg' | relative_url }}" alt="Wirestead" width="620" height="160" style="max-width: 100%; height: auto;">
+</picture>
+
 **Robust, simple async communication for modern C++20.**
 Serial · TCP · UDP · UDS
 
