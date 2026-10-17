@@ -1,15 +1,7 @@
-# Wirestead site branding
+# Wirestead brand assets
 
-Production assets copied from
-[wirestead/wirestead](https://github.com/wirestead/wirestead/tree/main/assets):
+Official assets copied from [wirestead/wirestead](https://github.com/wirestead/wirestead/tree/main/assets), under the project Apache-2.0 license.
 
-- `wirestead-logo-horizontal.svg` / `wirestead-logo-dark.svg`: responsive homepage
-  lockups for light and dark browser color preferences.
-- `wirestead-favicon.svg` / `wirestead-favicon-64.png`: favicons.
-- `wirestead-logo-square-1024.png`: square logo for Jekyll SEO metadata.
+The introduction page uses `wirestead-logo-dark.svg` on a dark Core Ink background and `wirestead-favicon.svg` as its favicon. Other logo variants remain available as reference assets. Preserve the artwork's aspect ratio and clear space. Refresh assets together after a brand update.
 
-Refresh these files together from the core repository after a brand update.
-The favicon links live in `_includes/head.html`, which preserves the Minima 2.5
-head template used by GitHub Pages. The bundled Minima theme uses a light background;
-dark browser preferences select the dark artwork, so the logo area supplies a
-matching background.
+Palette: Core Ink `#071426`, Send Blue `#147AE6`, Receive Green `#00C98B`. Dark-background accents: `#46A6FF` and `#20D9A2`.
